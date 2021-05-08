@@ -6,7 +6,7 @@ function resolve(name) {
 }
 
 module.exports = {
-  publicPath: './',
+  publicPath: '/tswManage/dist/',
   configureWebpack: {
     resolve: {
       alias: {

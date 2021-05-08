@@ -1,4 +1,5 @@
 const path = require('path');
+const NODE_ENV = process.env.NODE_ENV;
 
 //用于返回根路径加name的字符串
 function resolve(name) {
@@ -6,7 +7,7 @@ function resolve(name) {
 }
 
 module.exports = {
-  publicPath: '/tswManage/dist/',
+  publicPath: 'https://cdn.jsdelivr.net/gh/annarheimur/tswManage/dist/',
   configureWebpack: {
     resolve: {
       alias: {

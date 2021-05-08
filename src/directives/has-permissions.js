@@ -1,5 +1,4 @@
 import store from '../store/index';
-console.log('store: ', store);
 
 export default {
   inserted(el, binding) {

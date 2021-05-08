@@ -6,6 +6,7 @@ function resolve(name) {
 }
 
 module.exports = {
+  publicPath: './',
   configureWebpack: {
     resolve: {
       alias: {
